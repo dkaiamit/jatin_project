@@ -1,0 +1,24 @@
+html, body {
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#particles-js{
+  background: url('/static/img/abc.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  position:fixed;
+  width: 100%;
+  z-index: -100;
+  background-size: cover;
+}
+#particles-js :before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
